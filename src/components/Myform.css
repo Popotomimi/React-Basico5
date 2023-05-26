@@ -1,0 +1,37 @@
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    color: #222;
+}
+
+input, textarea, select {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    color: #222;
+    border: #222 solid 2px;
+    border-radius: 10px;
+}
+
+.btnSubmit {
+    padding: 10px;
+    color: white;
+    background-color: #222;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+.btnSubmit:hover {
+    background-color: rgb(240, 205, 6);
+    color: #222;
+    transition: 1s;
+    border: #222 solid 2px;
+    box-shadow: 1px 0px 0px 1px #22222277;
+}
+
+input {
+    margin-bottom: 5px;
+}
